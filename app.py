@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-with open("models\model_KNN.pkl", "rb") as f:
+with open("models/model_KNN.pkl", "rb") as f:
     knn_model = pickle.load(f)
 
 st.set_page_config(
